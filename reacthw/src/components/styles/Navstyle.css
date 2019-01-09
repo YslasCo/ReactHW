@@ -1,0 +1,13 @@
+#brandy {
+    font-size: 40px;
+     /* font-weight: 40px;  */
+    color: blue;
+    font-family: 'Barrio';
+};
+
+#topScore {
+    font-size: 25px;
+    font-family: 'Barrio';
+    position: relative;
+    right: 10px;
+}

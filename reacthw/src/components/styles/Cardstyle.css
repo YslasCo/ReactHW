@@ -1,0 +1,29 @@
+.card {
+    display: inline-block;
+    width: 220px;
+    border: 5px solid darkcyan;
+    padding: 40px;
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+/*TILT*/
+.img-container{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.img-container:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
